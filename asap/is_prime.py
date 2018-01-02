@@ -42,21 +42,27 @@ def is_prime3(n):
 
 if __name__ == '__main__':
     print('IDEA 1:')
+    count1 = 0
     for i in range(1000):
         if is_prime1(i):
+            count1 += 1
             print(i, end=' ')
-    print('\n')
+    print('\nCount = {}\n'.format(count1))
 
     print('IDEA 2:')
+    count2 = 0
     for i in range(1000):
         if is_prime2(i):
+            count2 += 1
             print(i, end=' ')
-    print('\n')
-
+    print('\nCount = {}\n'.format(count2))
+    
     print('IDEA 3:')
+    count3 = 0
     for i in range(1000):
         if is_prime3(i):
+            count3 += 1
             print(i, end=' ')
-    print('\n')
+    print('\nCount = {}\n'.format(count3))
 
 
