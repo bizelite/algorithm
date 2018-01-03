@@ -2,9 +2,7 @@
 
 import math
 
-
 # IDEA 1: A number greater than 'n/2' can not divide 'n'
-
 def is_prime1(n):
     if n <= 1:
         return False
@@ -15,7 +13,6 @@ def is_prime1(n):
     return True
 
 # IDEA 2 : A number greater than 'square root of n' can not divied 'n'
-
 def is_prime2(n):
     if n <= 1:
         return False
@@ -29,7 +26,6 @@ def is_prime2(n):
 
 # IDEA 3 : If any number from '2' to 'n-1' divide 'n',
 #          'n' is not a prime number
-
 def is_prime3(n):
     if n <= 1:            # '1' is not a prime number
         return False
