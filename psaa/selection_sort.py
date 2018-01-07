@@ -15,4 +15,4 @@ def selection_sort(lst):
 if __name__ == '__main__':
     lst = [8, 4, 7, 3, 5, 2, 9]
     selection_sort(lst)
-    print(lst)
+    
