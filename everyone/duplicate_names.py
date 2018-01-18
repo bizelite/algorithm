@@ -15,9 +15,28 @@ def pairs(l):
                 print(l[i], '-', l[j])
 
 
+
+def same_name(lst):
+    dup = set()
+    dic = {}
+
+    for item in lst:
+        dic[item] = dic.get(item, 0) + 1
+        if dic[item] > 1:
+            dup.add(item)
+    return dup
+
+
+
 if __name__ == '__main__':
     names = ['Tom', 'Jerry', 'Mike', 'Tom']
-    print(duplicate(names))
-    print(pairs(names))
+    names1 = ['Tom', 'Jerry', 'Mike', 'Tom', 'Mike']
+    # print(duplicate(names))
+    # print(pairs(names))
+
+
+    same_name = same_name(names)
+    same_name1 = same_name1(names)
+    print(same_name)
 
 
