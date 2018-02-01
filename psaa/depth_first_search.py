@@ -11,7 +11,6 @@ def dfs(graph, root, search):
     return visited
 
 
-
 if __name__ == '__main__':
     graph = {1: [8, 7, 2],
              2: [1, 6, 3],

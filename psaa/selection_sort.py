@@ -1,5 +1,6 @@
 # Data Sort Algorithm : Selection Sort
 
+
 def selection_sort(lst):
     for i in range(len(lst)-1):
         min_pos = i
@@ -14,6 +15,6 @@ def selection_sort(lst):
 
 
 if __name__ == '__main__':
-    lst = [8, 4, 7, 3, 5, 2, 9]
-    selection_sort(lst)
-    print(lst)
+    a_lst = [8, 4, 7, 3, 5, 2, 9]
+    selection_sort(a_lst)
+    print(a_lst)
