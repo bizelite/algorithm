@@ -187,6 +187,7 @@ _root.withdraw()
 
 _update_lasttime = time.time()
 
+
 def update(rate=None):
     global _update_lasttime
     if rate:
@@ -202,7 +203,8 @@ def update(rate=None):
 
 ############################################################################
 # Graphics classes start here
-        
+
+
 class GraphWin(tk.Canvas):
 
     """A GraphWin is a toplevel window for displaying graphics."""
@@ -272,10 +274,8 @@ class GraphWin(tk.Canvas):
         self.master.destroy()
         self.__autoflush()
 
-
     def isClosed(self):
         return self.closed
-
 
     def isOpen(self):
         return not self.closed
