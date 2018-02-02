@@ -1,5 +1,6 @@
 from graphics import *
 
+
 def main():
     print('This program plots the growth of a 10-year investment.')
 
@@ -29,6 +30,7 @@ def main():
 
     input('Press <Enter> to quit')
     win.close()
+
 
 if __name__ == '__main__':
     main()
